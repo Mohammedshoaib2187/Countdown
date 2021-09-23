@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>CountDown</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body align="center" class="body">
+        <h1 class="count" id="head"><i>Countdown Starts</i></h1>
+        <br>
+        <h1 class="sec" id="num"></h1>
+    </body>
+    <script>
+        var val=document.getElementById("num")
+        setTimeout(function(){
+            val.innerHTML=10
+            
+        },1000)
+        setTimeout(function(){
+            document.getElementById("head").innerHTML="";
+            val.innerHTML=9
+        },2000)
+        setTimeout(function(){
+            val.innerHTML=8
+        },3000)
+        setTimeout(function(){
+            val.innerHTML=7
+        },4000)
+        setTimeout(function(){
+            val.innerHTML=6
+        },5000)
+        setTimeout(function(){
+            val.innerHTML=5
+        },6000)
+        setTimeout(function(){
+            val.innerHTML=4
+        },7000)
+        setTimeout(function(){
+            val.innerHTML=3
+        },8000)
+        setTimeout(function(){
+            val.innerHTML=2
+        },9000)
+        setTimeout(function(){
+            val.innerHTML=1
+        },10000)
+        setTimeout(function(){
+            
+            val.innerHTML="<i>HAPPY NEW YEAR</i> 🥳🎉"
+
+        },11000)
+        setTimeout(function(){
+            var btn=document.createElement("button")
+            var lin=document.createElement("a")
+            lin.setAttribute("href","index.html")
+            lin.innerHTML="Count Again"
+            document.body.appendChild(lin)
+        },12000)
+    </script>
+</html>

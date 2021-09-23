@@ -1,0 +1,22 @@
+.sec{
+    color:rgb(247, 10, 2);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+}
+.count{
+    color:rgb(10, 247, 2);
+    text-align: center;
+    margin-top: 120px;
+    font-size: 60px;
+}
+body{
+    background-color:rgb(253, 255, 111);
+}
+a{
+    border:0.5px solid;
+    padding:15px;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: 30px;
+}
